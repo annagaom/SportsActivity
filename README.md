@@ -29,7 +29,7 @@
 │           └── SportsTimeTrackerTest.java  # Yksikkötestit
 └── target                       # Käännetyt tiedostot ja testiraportit
 ```
-## Asennusohjeet
+## Ohjeet
 **Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.**
 1. **Luo uusi projekti `SportsActivity` and `SportsActivityjaTest`.**
 2. **Lisää ``Dockerfile`**
