@@ -128,11 +128,27 @@ pom.xml:
 ```
 4. **Execute maven goal/ run: mavn install to luoda target kansio.**
 5. **Push the repository to your GitHub account.**
-6. **Luo uusi repository `SportsActivity` docker hub:ssa**
-7. **Set up a Jenkins server**
-
+6. **Create new repository `SportsActivity` docker Hub**
+   **Set up a Jenkins server**
+   *Dashboard -> Manage Jenkins ->Tools*
+   ![img.png](kuvat/gitInstallation.png)
+   ![img.png](kuvat/mavenInstallation.png)
+   ![img.png](kuvat/dockerInstallation2.png)
+   *Save*
+7. **Create credential to Docker Hub**
+   *mManage Jebkins -> Credentials -> System*
+   ![image.png](kuvat/dockerCredentials.png)
+   *Username:*
+   *Add domain, esim. dockerHub*
+   *Add Credentials*
+   *Kind: Docker Registry Auth*
+   *Enter Username, password and ID*
+   *Create*
+   ![img.png](kuvat/newCredentials.png)
 
 8. **Create a Jenkins pipeline:**
+   *Dashboard -> New Item -> Pipeline*
+   *Add the following code to the pipeline script:*
 
 *Create uusi item-> lisää Definition, valitse  Pipeline script lisää koodit:*
 ```
@@ -202,8 +218,6 @@ docker pull annagaom/sportsactivity:latest
 ![img.png](kuvat/dockerPlayer.png)
 
 
-
-(http://a.com)
 
 
 
