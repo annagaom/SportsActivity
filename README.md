@@ -189,7 +189,8 @@ pom.xml:
 2. **Install Docker on the Linux VM.**
 3. **Pull your Docker image from Docker Hub**
 4. **Run the Docker container**
-*open the following link [Play docker]: (https://labs.play-with-docker.com/)*
+*open the following link !*
+[Play docker]: (https://labs.play-with-docker.com/)
 *Login and Start*
 *Puu the image you what to test*
 *Add new instance and run:*
