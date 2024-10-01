@@ -18,19 +18,18 @@
 - **Git**: Versionhallintaan.
 - **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
 
-##Projektin rakenne
-- Dockerfile                   # Docker-kuvan rakentamiseen
-- README.md                    # Tämä tiedosto
-- pom.xml                      # Mavenin konfiguraatiotiedosto
-- src
-    - main
-        - java
-            - SportsTimeTracker.java      # Sovelluksen pääluokka
-    - test
-        - java
-            - SportsTimeTrackerTest.java  # Yksikkötestit
-- target                       # Käännetyt tiedostot ja testiraportit
-
+# Projektin rakenne
+**├── Dockerfile                   # Docker-kuvan rakentamiseen**
+**├── README.md                    # Tämä tiedosto**
+**├── pom.xml                      # Mavenin konfiguraatiotiedosto**
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── SportsTimeTracker.java      # Sovelluksen pääluokka
+│   └── test
+│       └── java
+│           └── SportsTimeTrackerTest.java  # Yksikkötestit
+└── target                       # Käännetyt tiedostot ja testiraportit
 
 
 
