@@ -13,7 +13,6 @@
 - **Maven**: Rakennustyökaluna.
 - **Docker**: Sovelluksen kontittamiseen.
 - **Jenkins**: Jatkuvaan integrointiin ja rakentamiseen.
-- **Git**: Versionhallintaan.
 - **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
 
 ## Projektin rakenne
@@ -33,7 +32,7 @@
 ## Asennusohjeet
 **Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.**
 1. **Luo uusi projekti `SportsActivity` and `SportsActivityjaTest`.**
-**Lisää ``Dockerfile`**
+2. **Lisää ``Dockerfile`**
 ```
 
 # Use an official Maven image as a parent image
@@ -59,7 +58,7 @@ CMD ["java", "-jar", "target/sportsActivity.jar"]
 
 ```
 
-2. **Lisää seuraavat koodit pom.xml**
+3. **Lisää seuraavat koodit pom.xml**
 pom.xml:
 ```
 <dependencies>
@@ -127,13 +126,13 @@ pom.xml:
         </plugins>
     </build>
 ```
-3. **Execute maven goal/ run: mavn install to luoda target kansio.**
-4. **Push the repository to your GitHub account.**
-5. **Luo uusi repository `SportsActivity` docker hub:ssa**
-6. **Set up a Jenkins server **
-7. **Create a new Jenkins pipeline job.**
+4. **Execute maven goal/ run: mavn install to luoda target kansio.**
+5. **Push the repository to your GitHub account.**
+6. **Luo uusi repository `SportsActivity` docker hub:ssa**
+7. **Set up a Jenkins server**
+8. **Create a new Jenkins pipeline job.**
 * Create a Jenkins pipeline:*
-**1. Create uusi item-> lisää Definition, valitse  Pipeline script lisää koodit:**
+1. **Create uusi item-> lisää Definition, valitse  Pipeline script lisää koodit:**
 ```
    pipeline {
     agent any
@@ -180,14 +179,14 @@ pom.xml:
     }
 }
    ```
-**2. Build now**
-**Creates a Docker image of the application and push it to Doker hub**
+2. **Build now**
+**Creates a Docker image of the application and push it to Doker Hub**
 
 8. **Asentaa UTM(virtuaalikone box mac:lle)**
-8.1.**Creat a new Virtual Machine**
-8.2. **Install Docker on the Linux VM.**
-8.3. **Pull your Docker image from Docker Hub**
-8.4. **Run the Docker container**
+1. **Creat a new Virtual Machine**
+2. **Install Docker on the Linux VM.**
+3. **Pull your Docker image from Docker Hub**
+4. **Run the Docker container**
 
 
 
