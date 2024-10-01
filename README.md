@@ -19,9 +19,10 @@
 - **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
 
 - **Asennusohjeet**: Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.
-- ***lisääseuraavat koodit  pom.xml:lle
-  ```xml
-  <dependencies>
+
+pom.xml:
+```
+<dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -85,9 +86,7 @@
             </plugin>
         </plugins>
     </build>
-
-
-##Projektin rakenne
+```
 
 ├── Dockerfile            # Docker-kuvan rakentamiseen
 ├── README.md             # Tämä tiedosto
