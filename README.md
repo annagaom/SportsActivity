@@ -19,7 +19,7 @@
 - **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
 
 - ## Asennusohjeet
-- Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.
+**Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.**
 
 pom.xml:
 ```
