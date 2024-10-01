@@ -13,7 +13,7 @@
 - **Maven**: Rakennustyökaluna.
 - **Docker**: Sovelluksen kontittamiseen.
 - **Jenkins**: Jatkuvaan integrointiin ja rakentamiseen.
-- **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
+- **UTM (Virtuaalikone mac:lle): Asennetaan Docker ja ajetaan Docker-kontti.**
 
 ## Projektin rakenne
 ```
@@ -31,7 +31,7 @@
 ```
 ## Ohjeet
 **Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.**
-1. **Luo uusi projekti `SportsActivity` and `SportsActivityjaTest`.**
+1. **Luo uusi projekti ja lisää uusi luokka `SportsActivity` sekä `SportsActivityjaTest`.**
 2. **Lisää ``Dockerfile`**
 ```
 
@@ -58,7 +58,7 @@ CMD ["java", "-jar", "target/sportsActivity.jar"]
 
 ```
 
-3. **Lisää seuraavat koodit pom.xml**
+3. **Lisää seuraavat koodit pom.xml-tiedostoon:**
 pom.xml:
 ```
 <dependencies>
@@ -126,19 +126,18 @@ pom.xml:
         </plugins>
     </build>
 ```
-4. **Execute maven goal/ run: mavn install to luoda target kansio.**
-5. **Push the repository to your GitHub account.**
-6. **Create new repository `SportsActivity` docker Hub**
-   **Set up a Jenkins server**
+4. **Suorita maven/ mvn install ja luoda target-hakemisto.**
+5. **Push repository GitHub-tilillesi.**
+6. **Luo uusi repository `SportsActivity` docker Hubissa.**
+   **Aseta Jenkins-palvelin:**
    *Dashboard -> Manage Jenkins ->Tools*
    ![img.png](kuvat/gitInstallation.png)
    ![img.png](kuvat/mavenInstallation.png)
    ![img.png](kuvat/dockerInstallation2.png)
-   *Save*
-7. **Create credential to Docker Hub**
-   *mManage Jebkins -> Credentials -> System*
+   *Tallenna*
+7. **Luo credential Docker Hubiin**
+   *Manage Jebkins -> Credentials -> System*
    ![image.png](kuvat/dockerCredentials.png)
-   *Username:*
    *Add domain, esim. dockerHub*
    *Add Credentials*
    *Kind: Docker Registry Auth*
@@ -146,11 +145,11 @@ pom.xml:
    *Create*
    ![img.png](kuvat/newCredentials.png)
 
-8. **Create a Jenkins pipeline:**
+8. **Luo Jenkins-pipeline:**
    *Dashboard -> New Item -> Pipeline*
-   *Add the following code to the pipeline script:*
+   *Lisää seuraava koodi pipeline-skriptiin:*
 
-*Create uusi item-> lisää Definition, valitse  Pipeline script lisää koodit:*
+   *Create uusi item-> lisää Definition, valitse  Pipeline script lisää koodit:*
 ```
    pipeline {
     agent any
@@ -198,19 +197,19 @@ pom.xml:
 }
    ```
 *Build now*
-*Creates a Docker image of the application and push it to Doker Hub*
+*Luo Docker-image sovelluksesta ja push se Docker Hubiin.*
 
-8. **Asentaa UTM(virtuaalikone box mac:lle)**
-1. **Creat a new Virtual Machine**
-2. **Install Docker on the Linux VM.**
-3. **Pull your Docker image from Docker Hub**
-4. **Run the Docker container** 
-   *Open the following link!*  
+8. **Asentaa UTM(virtuaalikone Macille)**
+1. **Luo uusi Virtual Machine**
+2. **IAsenna Docker Linux-virtuaalikoneeseen**
+3. **Hae Docker-image Docker Hubista.**
+4. **RSuorita Docker-kontti:** 
+   *Avaa seuraava linkki*  
    [Play with Docker](https://labs.play-with-docker.com/)
 
 *Login and Start*
-*Puu the image you what to test*
 *Add new instance and run:*
+*Pull the image you what to test*
 ```
 docker login
 docker pull annagaom/sportsactivity:latest
