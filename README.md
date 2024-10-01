@@ -130,9 +130,11 @@ pom.xml:
 5. **Push the repository to your GitHub account.**
 6. **Luo uusi repository `SportsActivity` docker hub:ssa**
 7. **Set up a Jenkins server**
-8. **Create a new Jenkins pipeline job.**
-* Create a Jenkins pipeline:*
-1. **Create uusi item-> lisää Definition, valitse  Pipeline script lisää koodit:**
+
+
+8. **Create a Jenkins pipeline:**
+
+*Create uusi item-> lisää Definition, valitse  Pipeline script lisää koodit:*
 ```
    pipeline {
     agent any
@@ -179,26 +181,27 @@ pom.xml:
     }
 }
    ```
-2. **Build now**
-**Creates a Docker image of the application and push it to Doker Hub**
+*Build now*
+*Creates a Docker image of the application and push it to Doker Hub*
 
 8. **Asentaa UTM(virtuaalikone box mac:lle)**
 1. **Creat a new Virtual Machine**
 2. **Install Docker on the Linux VM.**
 3. **Pull your Docker image from Docker Hub**
 4. **Run the Docker container**
-*Open linkki: https://labs.play-with-docker.com/*
-*Log in and Start*
+*open the following link [Play docker]: (https://labs.play-with-docker.com/)*
+*Login and Start*
 *Puu the image you what to test*
 *Add new instance and run:*
 ```
+docker login
 docker pull annagaom/sportsactivity:latest
 ```
-![img.png](img.png)
+![img.png](kuvat/dockerPlayer.png)
 
 
 
-
+(http://a.com)
 
 
 
