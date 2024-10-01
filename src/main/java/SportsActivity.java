@@ -1,6 +1,4 @@
 // SportsTimeTracker.java
-import java.util.ArrayList;
-import java.util.Scanner;
 
 class SportsActivity {
     String name;
