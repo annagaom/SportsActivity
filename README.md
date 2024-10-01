@@ -18,8 +18,9 @@
 - **Git**: Versionhallintaan.
 - **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
 
-- ## Asennusohjeet
+## Asennusohjeet
 **Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.**
+**Lisää seuraavat koodit pom.xml**
 
 pom.xml:
 ```
@@ -89,8 +90,8 @@ pom.xml:
     </build>
 ```
 
-├── Dockerfile            # Docker-kuvan rakentamiseen
-├── README.md             # Tämä tiedosto
+**├── Dockerfile            # Docker-kuvan rakentamiseen**
+**├── README.md             # Tämä tiedosto**
 ├── pom.xml               # Mavenin konfiguraatiotiedosto
 ├── src
 │   ├── main
