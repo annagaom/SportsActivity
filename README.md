@@ -187,6 +187,15 @@ pom.xml:
 2. **Install Docker on the Linux VM.**
 3. **Pull your Docker image from Docker Hub**
 4. **Run the Docker container**
+*Open linkki: https://labs.play-with-docker.com/*
+*Log in and Start*
+*Puu the image you what to test*
+*Add new instance and run:*
+```
+docker pull annagaom/sportsactivity:latest
+```
+![img.png](img.png)
+
 
 
 
