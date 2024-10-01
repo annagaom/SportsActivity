@@ -19,9 +19,10 @@
 - **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
 
 # Projektin rakenne
-**├── Dockerfile                   # Docker-kuvan rakentamiseen**
-**├── README.md                    # Tämä tiedosto**
-**├── pom.xml                      # Mavenin konfiguraatiotiedosto**
+```
+├── Dockerfile                   # Docker-kuvan rakentamiseen**
+├── README.md                    # Tämä tiedosto**
+├── pom.xml                      # Mavenin konfiguraatiotiedosto**
 ├── src
 │   ├── main
 │   │   └── java
@@ -30,7 +31,7 @@
 │       └── java
 │           └── SportsTimeTrackerTest.java  # Yksikkötestit
 └── target                       # Käännetyt tiedostot ja testiraportit
-
+```
 
 
 ## Asennusohjeet
