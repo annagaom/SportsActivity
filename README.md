@@ -18,7 +18,8 @@
 - **Git**: Versionhallintaan.
 - **UTM (Virtuaalikone)**: asennetaan Docker ja run the Docker container.
 
-- **Asennusohjeet**: Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.
+- ## Asennusohjeet
+- **Ohjeet, kuinka sovellus voidaan suorittaa paikallisesti, Dockerilla ja Linux-virtuaalikoneessa.**
 
 pom.xml:
 ```
