@@ -129,8 +129,7 @@ pom.xml:
 4. **Suorita maven/ mvn install ja luoda target-hakemisto.**
 5. **Push repository GitHub-tilillesi.**
 6. **Luo uusi repository `SportsActivity` docker Hubissa.**
-   **Aseta Jenkins-palvelin:**
-   **Dashboard -> Manage Jenkins ->Tools**
+   **Aseta Jenkins-palvelin: Dashboard -> Manage Jenkins ->Tools**
    ![img.png](kuvat/gitInstallation.png)
    ![img.png](kuvat/mavenInstallation.png)
    ![img.png](kuvat/dockerInstallation2.png)
