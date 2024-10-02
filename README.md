@@ -143,9 +143,10 @@ pom.xml:
    *Kind: Docker Registry Auth*
    *Enter Username, password and ID*
    *Create*
+   
    ![img.png](kuvat/newCredentials.png)
 
-8. **Luo Jenkins-pipeline:**
+9. **Luo Jenkins-pipeline:**
    *Dashboard -> New Item -> Pipeline*
    *Lisää seuraava koodi pipeline-skriptiin:*
 
