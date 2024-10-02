@@ -133,7 +133,7 @@ pom.xml:
 
    ![img.png](kuvat/gitInstallation.png)
    ![img.png](kuvat/mavenInstallation.png)
-   ![img.png](kuvat/dockerInstallation2.png)
+   ![img.png](kuvat/dockerInstallation.png)
    *Tallenna*
 7. **Luo credential Docker Hubiin**
    *Manage Jebkins -> Credentials -> System*
@@ -143,7 +143,7 @@ pom.xml:
    *Kind: Docker Registry Auth*
    *Enter Username, password and ID*
    *Create*
-   ![img.png](kuvat/newCredentials.png)
+   ![img.png](kuvat/newCredential.png)
 
 8. **Luo Jenkins-pipeline:**
    *Dashboard -> New Item -> Pipeline*
