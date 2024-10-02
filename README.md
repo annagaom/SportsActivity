@@ -13,9 +13,7 @@
 - **Maven**: Rakennustyökaluna.
 - **Docker**: Sovelluksen kontittamiseen.
 - **Jenkins**: Jatkuvaan integrointiin ja rakentamiseen.
-- **UTM (VirtuaaliBox mac:lle):**
--- *Asennetaan virtuaalikone*
--- *Asennetaan Docker virtuaalikonelle ja ajetaan Docker-kontti.*
+- **UTM (VirtuaaliBox mac:lle): Asennetaan virtuaalikone ->Asennetaan Docker virtuaalikonelle ja ajetaan Docker-kontti.**
 
 ## Projektin rakenne
 ```
