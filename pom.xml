@@ -50,7 +50,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>SportTimeTracker</mainClass> <!-- Correct main class -->
+                            <mainClass>SportsTimeTracker</mainClass> <!-- Correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
