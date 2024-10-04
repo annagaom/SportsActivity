@@ -26,7 +26,7 @@
 │   │       └── SportsTimeTracker.java      # Sovelluksen pääluokka
 │   └── test
 │       └── java
-│           └── SportsTimeTrackerTest.java  # Yksikkötestit
+│           └── SportsActivityTest.java  # Yksikkötestit
 └── target                       # Käännetyt tiedostot ja testiraportit
 ```
 ## Ohjeet

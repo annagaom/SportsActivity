@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SportsTimeTrackerTest {
+public class SportsActivityTest {
 
     private ArrayList<SportsActivity> activities;
 
