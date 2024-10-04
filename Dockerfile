@@ -2,9 +2,6 @@
 # Use an official Maven image as a parent image
 FROM maven:latest
 
-# Set metadata information
-LABEL authors="anna"
-
 # Set the working directory in the container
 WORKDIR /app
 
