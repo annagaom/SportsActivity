@@ -218,7 +218,7 @@ docker pull annagaom/sportsactivity:latest
 
 5. **Jos run image ei toimi Doker player:ssa, voit Suorita Docker-kontti Docker desktopissa:** 
    *Run the image Docker desktop*
-   ![img.png](kuvat/dockerRun.png)
+   ![img.png](kuvat/runDockerDestop.png)
 
 
 
