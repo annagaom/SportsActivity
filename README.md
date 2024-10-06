@@ -215,6 +215,8 @@ docker login
 docker pull annagaom/sportsactivity:latest
 ```
 ![img.png](kuvat/dockerPlayer.png)
+![img.png](kuvat/dockerPlayer.png)
+
 
 5. **Jos run image ei toimi Doker player:ssa, voit Suorita Docker-kontti Docker desktopissa:**
    ![img.png](kuvat/runDockerDestop.png)
